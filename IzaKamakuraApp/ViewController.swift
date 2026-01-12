@@ -5,7 +5,7 @@ import AVKit
 final class ViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var kamakuramap: MKMapView!
-    // ピン3つ（MP4直リンク）
+    // ピン3つ（MP4直リンク.）
     private let spots: [(title: String, lat: Double, lon: Double, url: String)] = [
         ("茶道体験", 35.319, 139.546, "https://www.w3schools.com/html/mov_bbb.mp4"),
         ("座禅体験　報国寺", 35.319997, 139.569221, "https://www.w3schools.com/html/movie.mp4"),
