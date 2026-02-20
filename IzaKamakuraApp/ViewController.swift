@@ -5,6 +5,8 @@ import AVKit
 final class ViewController: UIViewController, MKMapViewDelegate {
 
     @IBOutlet weak var kamakuramap: MKMapView!
+    @IBOutlet weak var textView: UITextView!
+
     // ピン3つ（MP4直リンク.）
     private let spots: [(title: String, lat: Double, lon: Double, url: String)] = [
         ("茶道体験", 35.319, 139.546, "https://www.w3schools.com/html/mov_bbb.mp4"),
@@ -12,38 +14,39 @@ final class ViewController: UIViewController, MKMapViewDelegate {
         ("鎌倉彫工房", 35.320424, 139.553299, "https://www.w3schools.com/html/mov_bbb.mp4"),
         ("朝食屋コバカバ", 35.317481, 139.551333, "https://www.w3schools.com/html/mov_bbb.mp4")
     ]
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        guard kamakuramap != nil else {
+        // Map setup
+        if let kamakuramap = kamakuramap {
+            kamakuramap.delegate = self
+
+            // 初期位置（鎌倉あたり）
+            let center = CLLocationCoordinate2D(latitude: 35.319, longitude: 139.546)
+
+            // どれくらいズームするか（メートル）
+            let region = MKCoordinateRegion(
+                center: center,
+                latitudinalMeters: 2500,
+                longitudinalMeters: 2500
+            )
+
+            // 地図に「この位置で表示してね」
+            kamakuramap.setRegion(region, animated: false)
+
+            // ピン配置（spotsの数だけ繰り返す）
+            for s in spots {
+                let pin = MKPointAnnotation()
+                pin.title = s.title
+                pin.coordinate = CLLocationCoordinate2D(latitude: s.lat, longitude: s.lon)
+                kamakuramap.addAnnotation(pin)
+            }
+        } else {
             print("Kamakura map is nil")
-            return
         }
-        // 「ピン押したよ」を受け取れるようにする
-        kamakuramap.delegate = self
 
-        // 初期位置（鎌倉あたり）
-        let center = CLLocationCoordinate2D(latitude: 35.319, longitude: 139.546)
-
-        // どれくらいズームするか（メートル）
-        let region = MKCoordinateRegion(
-            center: center,
-            latitudinalMeters: 2500,
-            longitudinalMeters: 2500
-        )
-
-        // 地図に「この位置で表示してね」
-        kamakuramap.setRegion(region, animated: false)
-
-        // ピン配置（spotsの数だけ繰り返す）
-        for s in spots {
-            let pin = MKPointAnnotation()
-            pin.title = s.title
-            pin.coordinate = CLLocationCoordinate2D(latitude: s.lat, longitude: s.lon)
-            kamakuramap.addAnnotation(pin)
-        }
+   
     }
 
     // ピンを押したら：下から画面 → 自動再生（無音）
@@ -77,6 +80,31 @@ final class ViewController: UIViewController, MKMapViewDelegate {
 
         // ⑧ 同じピンを何度でも押せるように選択解除
         mapView.deselectAnnotation(view.annotation, animated: false)
+    }
+
+    
+    private func setupRichContent() {
+        guard let textView = textView else { return }
+
+        let attributedString = NSMutableAttributedString()
+
+        // フォント設定
+        let titleFont = UIFont.boldSystemFont(ofSize: 24)
+        _ = UIFont.systemFont(ofSize: 16)
+        _ = view.bounds.width - 40
+
+        // === タイトル ===
+        let title = "鎌倉アプリのタイトル\n\n"
+        attributedString.append(NSAttributedString(
+            string: title,
+            attributes: [.font: titleFont]
+        ))
+
+        // === 本文1 ===
+
+
+        // テキストビューに設定
+        textView.attributedText = attributedString
     }
 }
 
@@ -149,5 +177,3 @@ final class VideoSheetVC: UIViewController {
     }
 }
 
-//test
-//test saki
