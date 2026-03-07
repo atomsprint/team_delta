@@ -341,7 +341,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="evv-qe-Gjp">
-                                <rect key="frame" x="164" y="656" width="75" height="55"/>
+                                <rect key="frame" x="164" y="734" width="75" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
@@ -349,10 +349,57 @@
                                     <segue destination="zoq-ie-LlY" kind="show" id="PeV-kN-Xju"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="報国寺" translatesAutoresizingMaskIntoConstraints="NO" id="fG7-oU-iav">
-                                <rect key="frame" x="0.0" y="-45" width="408" height="693"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pSc-nh-qZN">
+                                <rect key="frame" x="16" y="62" width="370" height="664"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">報国寺は、鎌倉の東エリアにある臨済宗建長寺派の禅寺。
+境内の美しい竹林で有名で、約2,000本以上の竹が立ち並び、
+「竹庭の寺」とも呼ばれています。
+山門から本堂まで参道や竹林の中に「苔」が生えています。
+特に雨上がりには青々とした苔が美しく、雨の日にも楽しめるお寺です。
+竹林の奥には、茶席の「休耕庵」があり、竹に囲まれながら抹茶と和菓子を楽しめます。
+鎌倉には多くの文豪が住んでいましたが、近代はノーベル文学賞を受賞した川端康成などの鎌倉文士が、この近くに住んでいました。
+竹林を抜けると、目の前の岩肌にやぐらがあります。鯉が泳ぐ池の隣には、枯山水の庭園があり、四季折々の花が楽しめます。
+
+【歴史的背景】
+足利家とゆかりの深い寺で、足利尊氏の祖父・家時によって1334年に建てられたお寺です。室町幕府と深い関係を持ち、禅文化の中心的な存在の一つとなりました。
+
+【体験】（体験にリンクできるようにする）
+■座禅
+報国寺は、ただの観光地ではなく、本格的な禅修行の場でもあります。毎月第2・第4日曜には、一般参加ができる「坐禅体験」が行われており、禅に触れる貴重な時間を過ごせます。
+
+■休耕庵
+竹の庭を眺めながらお抹茶と和菓子を楽しめます。静かな禅の空間で、岩場を流れる水音や鳥のさえずりを聴きながら、心を落ち着ける時間を過ごせます。
+＊入館時に600円の抹茶券チケットを購入（ラストオーダー : 15:30）
+
+【開いている時間】
+9時から16時まで
+入園料　高校生以上：400円
+小中学校以下：200円
+抹茶を飲むには、入館時に600円のチケットを購入する
+
+ 【アクセス】
+住所：神奈川県鎌倉市浄明寺2-7-4
+JR「鎌倉駅」東口からバス約10分 →「浄明寺」下車 徒歩3分
+鎌倉駅から徒歩約30分
+
+【公式HPのリンク】
+https://houkokuji.or.jp
+
+【近くの見どころ】
+鶴岡八幡宮・浄明寺・瑞泉寺</mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="〜雨の日も美しい竹庭の寺〜 報国寺" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iux-1R-eIa">
+                                <rect key="frame" x="72" y="20" width="259" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="uXY-e3-UbZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -641,7 +688,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="iKs-h4-rDr"/>
         <segue reference="2Fx-3j-mgG"/>
-        <segue reference="byT-xj-Jme"/>
+        <segue reference="PeV-kN-Xju"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="HEIWA" width="1509" height="1080"/>
@@ -649,7 +696,6 @@
         <image name="レンタサイクル説明" width="1175" height="1662"/>
         <image name="人力車説明" width="1167" height="1650"/>
         <image name="地図" width="1137" height="830"/>
-        <image name="報国寺" width="1414" height="2000"/>
         <image name="大仏高画質" width="2148" height="3018"/>
         <image name="鎌倉大仏ちゃん" width="1536" height="1000"/>
         <systemColor name="labelColor">
