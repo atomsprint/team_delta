@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "こけ.jpeg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -9,7 +10,6 @@
       "scale" : "2x"
     },
     {
-      "filename" : "LINE_ALBUM_アプリ用画像フォルダ_260219_1 1.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
