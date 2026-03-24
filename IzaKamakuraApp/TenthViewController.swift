@@ -9,12 +9,10 @@ import UIKit
 
 class TenthViewController: UIViewController {
     
-   
+
     @IBOutlet weak var Richtext: UITextView!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    override func viewDidLoad() {super.viewDidLoad()
         
         setupRichContent()
     }
@@ -29,8 +27,6 @@ class TenthViewController: UIViewController {
         
         // === タイトル ===
         let title = """
-        建長寺
-        鎌倉の自然・坐禅、これが日本
         """
         attributedString.append(NSAttributedString(
             string: title,
@@ -90,7 +86,7 @@ class TenthViewController: UIViewController {
             attributes: [.font: bodyFont]
         ))
         Richtext.attributedText = attributedString
-        Richtext.dataDetectorTypes = [.link]
+        Richtext.dataDetectorTypes = UIDataDetectorTypes.link
     }
 }
 
