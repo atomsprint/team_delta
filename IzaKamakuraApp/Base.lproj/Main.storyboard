@@ -63,11 +63,11 @@
             <objects>
                 <viewController id="zoq-ie-LlY" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="INu-WW-qPB">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK9-l3-2sU">
-                                <rect key="frame" x="149" y="685" width="124" height="35"/>
+                                <rect key="frame" x="150" y="685" width="124" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="⑥ 鎌倉クイズ"/>
@@ -76,13 +76,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNy-yL-sSn">
-                                <rect key="frame" x="149" y="642" width="124" height="35"/>
+                                <rect key="frame" x="150" y="638" width="124" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="⑤ 困ったとき"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WT2-tP-GXK">
-                                <rect key="frame" x="156" y="465" width="90" height="29"/>
+                                <rect key="frame" x="163" y="464" width="90" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="① 観光"/>
@@ -104,7 +104,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jwh-Us-A2Q">
-                                <rect key="frame" x="167" y="386" width="75" height="38"/>
+                                <rect key="frame" x="170" y="386" width="75" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="地図"/>
@@ -113,13 +113,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arc-FV-T03">
-                                <rect key="frame" x="125" y="545" width="172" height="35"/>
+                                <rect key="frame" x="128" y="545" width="172" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="③ 日本文化を知ろう"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaw-VC-csp">
-                                <rect key="frame" x="125" y="597" width="172" height="35"/>
+                                <rect key="frame" x="129" y="588" width="172" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="④ 鎌倉の自然と環境"/>
@@ -128,7 +128,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgl-v2-ay1">
-                                <rect key="frame" x="147" y="502" width="108" height="35"/>
+                                <rect key="frame" x="153" y="502" width="108" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="② 文化体験"/>
@@ -184,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ldW-WF-Aur" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1659.7014925373132" y="101.60183066361556"/>
+            <point key="canvasLocation" x="1660" y="102"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jPG-ga-KH2">
@@ -212,15 +212,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfl-yU-3aZ">
-                                <rect key="frame" x="164" y="700" width="75" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="戻る"/>
-                                <connections>
-                                    <segue destination="XkY-w0-gdd" kind="show" id="cQa-Yr-cTh"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="【人力車】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qQ-qt-iKq">
                                 <rect key="frame" x="61" y="14" width="100" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -236,13 +227,112 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YAk-F4-pSl">
-                                <rect key="frame" x="16" y="110" width="370" height="563"/>
+                                <rect key="frame" x="16" y="110" width="370" height="482"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3HX-TL-FWc">
+                                <rect key="frame" x="-9" y="675" width="411" height="127"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.94509803920000002" blue="0.83529411760000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ow4-8d-P81">
+                                <rect key="frame" x="120" y="733" width="72" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="クイズ">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="eoO-Uh-Lwd" kind="show" id="ocx-5a-5s9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdX-Ds-rpR">
+                                <rect key="frame" x="301" y="735" width="74" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ホーム">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="zoq-ie-LlY" kind="show" id="tTw-Ne-8aE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aR4-rt-xkT">
+                                <rect key="frame" x="30" y="733" width="79" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ヘルプ">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UF1-PN-wg4">
+                                <rect key="frame" x="30" y="685" width="58" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="観光">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BPW-9J-SO3" kind="show" id="yKS-IZ-Zl4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g98-Pl-8x6">
+                                <rect key="frame" x="214" y="685" width="56" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="文化">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TQB-sS-VqB">
+                                <rect key="frame" x="286" y="685" width="104" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="自然と環境">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="4jz-lP-9pV" kind="show" id="dNq-bL-mJC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aW-1u-lrn">
+                                <rect key="frame" x="120" y="685" width="56" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="体験">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="XkY-w0-gdd" kind="show" id="dhl-kt-fFf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOX-zw-T2D">
+                                <rect key="frame" x="205" y="734" width="74" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="地図">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="3Zm-Hg-KO1" kind="show" id="QX8-Og-p0T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hfl-yU-3aZ">
+                                <rect key="frame" x="164" y="600" width="75" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="戻る"/>
+                                <connections>
+                                    <segue destination="XkY-w0-gdd" kind="show" id="cQa-Yr-cTh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OQ1-wj-Xmg"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -254,14 +344,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AGR-qz-Ik4" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4409" y="141"/>
+            <point key="canvasLocation" x="4405.9701492537315" y="140.73226544622423"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jvq-Yu-Fm5">
             <objects>
                 <viewController id="XkY-w0-gdd" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fGg-Wf-hdv">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGw-dm-NPy">
@@ -357,8 +447,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="好きなところを見てね" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R6x-S1-JaJ">
                                 <rect key="frame" x="117" y="50" width="160" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="鎌倉大仏ちゃん" translatesAutoresizingMaskIntoConstraints="NO" id="yGi-Du-eNY">
@@ -539,7 +630,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yvn-FC-Bcz">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yvn-FC-Bcz">
                                 <rect key="frame" x="16" y="124" width="370" height="609"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -715,12 +806,12 @@
                                 <rect key="frame" x="16" y="124" width="370" height="584"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">枯山水は、水を使わずに岩や小石、砂利だけで自然の風景を表現する日本庭園です。禅の考えかたを大切にしていて、静かな心で景色を味わうための空間でもあります。
+                                <string key="text">枯山水は、水を使わずに岩や小石、砂利だけで自然の風景を表現する日本庭園です。禅の考えかたを大切にしていて、静かな心で景色を味わうための空間でもあります。
 砂の上におかれた岩は山や島を表していて、見る人によってさまざまな風景を想像できます。小さな庭の中に、宇宙が広がっているようです。
 枯山水では、砂利をならして、波のような模様が描かれます。この模様は水の流れや海の広がりを表しているといわれています。
 報国寺では、アーティストとしても活動しているお坊さんが、毎朝庭を整えています。人の手で描かれる砂の模様は、その日その時だけの特別な景色です。訪れるたびに少しずつちがう庭の表情を見ることができるのも、枯山水の魅力です。
 町中のにぎやかさから離れた静かなお寺の中で、枯山水をゆっくりと眺める時間は、小さな瞑想のような体験です。鎌倉で心を整えるひとときを過ごしてみてください。
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -865,21 +956,20 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TKr-Ka-hsy">
-                                <rect key="frame" x="16" y="104" width="370" height="568"/>
+                                <rect key="frame" x="16" y="120" width="370" height="514"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">おみくじは、神社でひくことができる日本の伝統的な運勢占いの紙です。紙の中には、大吉・中吉・小吉・凶などの運勢や、これからの過ごし方のヒントが書かれています。
+                                <string key="text">おみくじは、神社でひくことができる日本の伝統的な運勢占いの紙です。紙の中には、大吉・中吉・小吉・凶などの運勢や、これからの過ごし方のヒントが書かれています。
 鶴岡八幡宮には、かわいい鳩みくじや開運みくじ、縁結びみくじなど、さまざまな種類のおみくじがあって、どれにしようか選ぶ時間も楽しいです。
 もし良い結果でなくても、おみくじに書かれた言葉を大切にしながら過ごすことで、少しずつ良い方向へ向かうといわれています。
 もし「凶」を引いてしまっても大丈夫。鶴岡八幡宮には「凶運みくじ納め箱」があり、おみくじを納めて「強運掴み矢」をにぎりながら願いごとをすると、凶運が強運へかわるといわれています。
-境内にはおみくじを結ぶ場所もあります。鎌倉に来た記念に、ぜひおみくじを引いてみてください。
-</mutableString>
+境内にはおみくじを結ぶ場所もあります。鎌倉に来た記念に、ぜひおみくじを引いてみてください。</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nMa-q4-MeP">
-                                <rect key="frame" x="173" y="712" width="56" height="51"/>
+                                <rect key="frame" x="173" y="642" width="56" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
@@ -918,10 +1008,10 @@
                                 <rect key="frame" x="16" y="104" width="370" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">日本の政治の中心は、12世紀の終わりごろまで奈良や京都にありました。源頼朝は、武士による新しい政治の拠点として鎌倉に幕府を開き、日本ではじめて武士が中心となる政治が始まりました。
+                                <string key="text">日本の政治の中心は、12世紀の終わりごろまで奈良や京都にありました。源頼朝は、武士による新しい政治の拠点として鎌倉に幕府を開き、日本ではじめて武士が中心となる政治が始まりました。
 当時の天皇は京都におられたため、日本の首都は京都のままでした。鎌倉は、将軍や武士たちが政治を行った「幕府」の中心地だったのです。
 鎌倉には、大仏や長谷観音、禅寺など多くの歴史あるお寺があり、海と山に囲まれた自然豊かな町として知られています。今では、歴史や文化、静かな景色を楽しみに、世界中から多くの人が訪れる人気の観光地になっています。
-（まちの人たちがゴミ拾いなどをして、町をきれいにしようとしている取り組みは、別で紹介します）</mutableString>
+（まちの人たちがゴミ拾いなどをして、町をきれいにしようとしている取り組みは、別で紹介します）</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -971,7 +1061,7 @@
                                 <rect key="frame" x="20" y="62" width="370" height="642"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">まちをきれいにしながら、鎌倉の本当の魅力を見つけよう
+                                <string key="text">まちをきれいにしながら、鎌倉の本当の魅力を見つけよう
 
 鎌倉駅周辺では、毎週土曜日の朝に、ごみを拾いながらまち歩きを楽しむ活動が行われています。毎回10人〜30人ほどが集まり、小学生から高齢の方まで、幅広い世代の人と交流しながら、一緒に鎌倉のまちを歩くことができます。神社やお寺、昔から続く道や景色について話を聞きながら、有名な観光スポットだけでは気づかない鎌倉の日常や歴史にふれられる体験です。
 海に流れ着くごみの約８割は町から出たものともいわれています。町をきれいにすることは、地球の美しい海や自然を守ることにもつながります。
@@ -987,7 +1077,7 @@
 ・問合せ：上岡 洋一郎（Facebook）
 
 
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1030,14 +1120,14 @@
                                 <rect key="frame" x="20" y="62" width="370" height="642"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">東京を知っていますか
+                                <string key="text">東京を知っていますか
 東京は日本の中心です
 実は東京のモデルは鎌倉だったのです。
 東京の土台である江戸を築いた徳川家康は頼朝を尊敬し、頼朝がかいたあずまきょうという本から学び、つくった。かつて日本の中心だった鎌倉を江戸のさんこうにしました。
 140年前江戸でおきた革命は血が流れませんでした。
 フランス革命では革命派と王とう派の人でわかれ、革命がおこりました。多くの人が亡くなり、王と王妃がころされました。けんいとけんりょくが同じ人にあつまっているから、社会を変えようとする時多くの人の血が流れたのです。
 けんいとけんりょくがわかれている国を作ったので、革命がおきても日本の王さまの天皇家は今でも続いています。
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1102,6 +1192,49 @@
             </objects>
             <point key="canvasLocation" x="7213" y="-2084"/>
         </scene>
+        <!--Eleventh View Controller-->
+        <scene sceneID="X20-zk-5Fz">
+            <objects>
+                <viewController id="RSE-4t-AtM" customClass="EleventhViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YOl-rY-1qI">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h6u-4Q-dXb">
+                                <rect key="frame" x="16" y="62" width="370" height="615"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ekp-MO-zL1">
+                                <rect key="frame" x="173" y="784" width="56" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="戻る"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hXA-Gl-dHd">
+                                <rect key="frame" x="43" y="202" width="316" height="549"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="War-Lq-HFk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eR3-6d-Jel"/>
+                    <connections>
+                        <outlet property="RichText" destination="hXA-Gl-dHd" id="r2j-f0-afh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eh8-wJ-mAb" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1789.5522388059701" y="909.61098398169327"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="wxT-I4-vud">
             <objects>
@@ -1110,11 +1243,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EUC-O8-vTQ">
-                                <rect key="frame" x="16" y="-51" width="370" height="781"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FN0-QR-ucG">
+                                <rect key="frame" x="173" y="738" width="56" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="戻る"/>
+                                <connections>
+                                    <segue destination="eme-E5-lDG" kind="show" id="5op-zL-0Gr"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EUC-O8-vTQ">
+                                <rect key="frame" x="16" y="20" width="370" height="675"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">【長谷寺】
+                                <string key="text">【長谷寺】
 ・キャッチコピー
 海を眺めることができ、四季を通じて様々な花を楽しめるお寺
 かわいい「なごみ地蔵」や洞窟は必見
@@ -1147,20 +1289,11 @@ JR横須賀線　鎌倉駅下車　徒歩5分
 https://www.hasedera.jp/guide/
 ホームページをいちばんしたにいって、拝観のご案内、というボタンをおすとひらけます。
 
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FN0-QR-ucG">
-                                <rect key="frame" x="173" y="738" width="56" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="戻る"/>
-                                <connections>
-                                    <segue destination="eme-E5-lDG" kind="show" id="5op-zL-0Gr"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="nAl-WM-mDv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1169,12 +1302,68 @@ https://www.hasedera.jp/guide/
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HDF-LA-Qua" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3672" y="-2148"/>
+            <point key="canvasLocation" x="3671.6417910447758" y="-2148.0549199084667"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="HSO-wJ-bKA">
+            <objects>
+                <viewController id="CXh-ft-O55" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XZI-5Z-ZAU">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxC-mk-qUl">
+                                <rect key="frame" x="173" y="738" width="56" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="戻る"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TM0-k8-SmH">
+                                <rect key="frame" x="16" y="47" width="370" height="663"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">鎌倉駅の空きコインロッカー
+
+
+【鎌倉駅コインロッカー一覧】
+
+鎌倉駅構内(改札の中)
+1：東口・うどん屋さんの隣
+2：西口・江ノ電改札手前
+3：江ノ電改札内
+
+鎌倉駅（改札の外）
+4：東口・みずほATM前
+5：交番横
+6：西口・JR改札左側
+https://cloak.ecbo.io/ja/jpn/city/kanagawa/454
+小型:約300～400円
+中型:約500～600円
+大型:約700～800円﻿
+7:あいざ鎌倉3階
+https://i-za-kamakura.com/shop/coinlocker/
+
+
+【鎌倉駅の空きコインロッカー確認サイト】
+https://multiecube.com/station/86
+</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cLQ-7T-V6Y"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gM6-fG-NDD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z97-HW-vcs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2808.9552238805968" y="-2274.3707093821508"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Pxf-Pr-BMc">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-N4-PRr" sceneMemberID="firstResponder"/>
                 <viewController id="eoO-Uh-Lwd" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Abc-NH-ooQ">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
@@ -1208,13 +1397,13 @@ https://www.hasedera.jp/guide/
                     </view>
                     <navigationItem key="navigationItem" id="D6H-6i-X9C"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H7g-N4-PRr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2066" y="-1368"/>
+            <point key="canvasLocation" x="1557" y="-1305"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y5q-eb-bHv">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tl4-t0-bbg" sceneMemberID="firstResponder"/>
                 <viewController id="bjm-ch-sAp" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pml-Fr-Z1u">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
@@ -1264,6 +1453,7 @@ https://www.hasedera.jp/guide/
                     </view>
                     <navigationItem key="navigationItem" id="n6b-Na-mCr"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tl4-t0-bbg" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2182" y="-1785"/>
         </scene>
@@ -1281,48 +1471,6 @@ https://www.hasedera.jp/guide/
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="戻る"/>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HGc-DX-Frx">
-                                <rect key="frame" x="41" y="352" width="345" height="378"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">【長谷寺】
-・キャッチコピー
-海を眺めることができ、四季を通じて様々な花を楽しめるお寺
-かわいい「なごみ地蔵」や洞窟は必見
-
-
-・体験
-写経9:00〜13:00
-毎日自由に写経、写仏ができる
-道具のレンタルあり
-各一部1200円
-
-・拝観
-受付時間8:00〜17:00
-大人400円、小学生200円　（支払いは
-ペット入山はできないが、専用のキャリーケースに入れる場合のみOK
-駐車場30分350円　全面禁煙
-
-・アクセス
-JR横須賀線　鎌倉駅下車　徒歩5分
-江ノ電長谷駅　徒歩5分
-車　横須賀道から朝比奈IC下車　県道204号にて30分
-
-
-・食事ができる場所
-てらやカフェ
-お食事処　海光庵
-
-
-・公式HP
-https://www.hasedera.jp/guide/
-ホームページをいちばんしたにいって、拝観のご案内、というボタンをおすとひらけます。
-
-</mutableString>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="鎌倉時代から紡がれてきた日本の伝統的な文化" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wPU-VO-ILA">
                                 <rect key="frame" x="16" y="68" width="334" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1337,6 +1485,14 @@ https://www.hasedera.jp/guide/
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="HGc-DX-Frx">
+                                <rect key="frame" x="29" y="156" width="345" height="378"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="CCg-tw-Mff"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -1375,10 +1531,10 @@ https://www.hasedera.jp/guide/
                                 <rect key="frame" x="16" y="124" width="370" height="473"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">漆は、日本が誇る美しくて価値のある伝統工芸です。漆の木からとれる樹液は、天然のコーティング材や接着剤として使われて、表面のなめらかさや上品な光沢が特徴です。
+                                <string key="text">漆は、日本が誇る美しくて価値のある伝統工芸です。漆の木からとれる樹液は、天然のコーティング材や接着剤として使われて、表面のなめらかさや上品な光沢が特徴です。
 職人さんは、漆の樹液に色のもとになる顔料を混ぜて、木の器に何度もていねいにぬり重ねます。ぬった漆は、しっかり固まって丈夫になるまでに、湿度の高い環境と少しあたたかい温度が必要です。
 漆は2000年以上前から、中国をはじめとしたアジアの国々で使われてきました。とれる量が少なく、とても貴重なため、昔は高価な工芸品でした。日本の漆器は海外でも人気があり、ヨーロッパの王族たちが競って集めていたともいわれています。
-漆は、お盆やお箸、茶道具、仏具など、さまざまな道具に使われています。丈夫で長く使えるのも、漆の大きな魅力です。</mutableString>
+漆は、お盆やお箸、茶道具、仏具など、さまざまな道具に使われています。丈夫で長く使えるのも、漆の大きな魅力です。</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1459,11 +1615,11 @@ https://www.hasedera.jp/guide/
                                 <rect key="frame" x="16" y="124" width="370" height="473"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <mutableString key="text">漆は、日本が誇る美しくて価値のある伝統工芸です。漆の木からとれる樹液は、天然のコーティング材や接着剤として使われて、表面のなめらかさや上品な光沢が特徴です。
+                                <string key="text">漆は、日本が誇る美しくて価値のある伝統工芸です。漆の木からとれる樹液は、天然のコーティング材や接着剤として使われて、表面のなめらかさや上品な光沢が特徴です。
 職人さんは、漆の樹液に色のもとになる顔料を混ぜて、木の器に何度もていねいにぬり重ねます。ぬった漆は、しっかり固まって丈夫になるまでに、湿度の高い環境と少しあたたかい温度が必要です。
 漆は2000年以上前から、中国をはじめとしたアジアの国々で使われてきました。とれる量が少なく、とても貴重なため、昔は高価な工芸品でした。日本の漆器は海外でも人気があり、ヨーロッパの王族たちが競って集めていたともいわれています。
 漆は、お盆やお箸、茶道具、仏具など、さまざまな道具に使われています。丈夫で長く使えるのも、漆の大きな魅力です。
-</mutableString>
+</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1544,7 +1700,7 @@ https://www.hasedera.jp/guide/
             <objects>
                 <viewController id="eme-E5-lDG" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="caQ-sK-wMK">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mrm-k4-TgN">
@@ -1581,12 +1737,14 @@ https://www.hasedera.jp/guide/
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="5op-zL-0Gr"/>
-        <segue reference="28z-lF-dl7"/>
-        <segue reference="s5a-VR-Cvb"/>
-        <segue reference="sQx-P3-ARR"/>
+        <segue reference="YKa-cU-3do"/>
+        <segue reference="dNq-bL-mJC"/>
+        <segue reference="ocx-5a-5s9"/>
+        <segue reference="yKS-IZ-Zl4"/>
+        <segue reference="QX8-Og-p0T"/>
+        <segue reference="cQa-Yr-cTh"/>
         <segue reference="2Fx-3j-mgG"/>
-        <segue reference="bte-RF-9lW"/>
+        <segue reference="tTw-Ne-8aE"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="HEIWA" width="1509" height="1080"/>

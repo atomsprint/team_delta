@@ -17,7 +17,7 @@ class TenthViewController: UIViewController {
         setupRichContent()
     }
     
-    func setupRichContent() {
+   private func setupRichContent() {
         let attributedString = NSMutableAttributedString()
         
         // フォント設定
@@ -87,6 +87,8 @@ class TenthViewController: UIViewController {
         ))
         Richtext.attributedText = attributedString
         Richtext.dataDetectorTypes = UIDataDetectorTypes.link
+       Richtext.isEditable = false
+       Richtext.isSelectable = true
     }
 }
 

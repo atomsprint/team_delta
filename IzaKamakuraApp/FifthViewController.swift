@@ -60,14 +60,16 @@ class FifthViewController: UIViewController {
         電話：0467-24-2319
         時間：8時30分～17時00分​（季節により営業時間がちがいます）
         料金： 1日(4時間以上～営業時間まで)　1,200円
-        HP：https://www.jrbustech.co.jp/wp/shop_service
+        HP:https://www.jrbustech.co.jp/wp/shop_service
         """
         attributedString.append(NSAttributedString(
             string: text2,
             attributes: [.font: bodyFont]
         ))
-        richText?.attributedText = attributedString
-        richText?.dataDetectorTypes = .link
+        richText.attributedText = attributedString
+        richText.dataDetectorTypes = UIDataDetectorTypes.link
+        richText.isEditable = false
+        richText.isSelectable = true
     }
 }
 
