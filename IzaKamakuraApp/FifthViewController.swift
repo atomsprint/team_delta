@@ -8,9 +8,11 @@
 import UIKit
 
 class FifthViewController: UIViewController {
-
+    
+    
+    
     @IBOutlet weak var richText: UITextView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupRichContent()
@@ -20,9 +22,10 @@ class FifthViewController: UIViewController {
         let attributedString = NSMutableAttributedString()
 
         // フォント設定
-        let titleFont = UIFont.boldSystemFont(ofSize: 24)
-        let bodyFont = UIFont.systemFont(ofSize: 16)
+        let titleFont: UIFont = UIFont(name: "HiraginoSans-W6", size: 24) ?? .boldSystemFont(ofSize: 24)
+        let bodyFont: UIFont = UIFont(name: "HiraginoSans-W3", size: 16) ?? .systemFont(ofSize: 17)
         let maxWidth = view.bounds.width - 40
+        
 
         // === タイトル ===
         let title = """
@@ -66,6 +69,8 @@ class FifthViewController: UIViewController {
             string: text2,
             attributes: [.font: bodyFont]
         ))
+        
+
         richText.attributedText = attributedString
         richText.dataDetectorTypes = UIDataDetectorTypes.link
         richText.isEditable = false

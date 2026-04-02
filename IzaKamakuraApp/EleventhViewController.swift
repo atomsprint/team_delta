@@ -11,7 +11,8 @@ class EleventhViewController: UIViewController {
 
     // Connect this to your UITextView in Interface Builder
     
-    @IBOutlet weak var RichText: UITextView!
+    
+    @IBOutlet weak var Richtext: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -130,8 +131,8 @@ class EleventhViewController: UIViewController {
         ))
 
         // Apply to the text view
-        RichText.attributedText = attributedString
-        RichText.dataDetectorTypes = [.link]
+        Richtext.attributedText = attributedString
+        Richtext.dataDetectorTypes = [.link]
     }
 }
 

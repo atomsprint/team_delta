@@ -644,7 +644,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="f0p-ko-eEi"/>
                     <connections>
-                        <outlet property="richText" destination="Yvn-FC-Bcz" id="DDa-jQ-Iqv"/>
+                        <outlet property="richText" destination="Yvn-FC-Bcz" id="soe-0y-0AT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SO8-rw-bZf" sceneMemberID="firstResponder"/>
@@ -885,7 +885,7 @@
             <objects>
                 <viewController id="BPW-9J-SO3" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nm6-Ea-hSB">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgR-dp-wZ0">
@@ -1151,6 +1151,51 @@
             </objects>
             <point key="canvasLocation" x="6530" y="-1389"/>
         </scene>
+        <!--Tekitoudaze View Controller-->
+        <scene sceneID="10C-py-HnH">
+            <objects>
+                <viewController id="Naf-1E-Wgf" customClass="tekitoudaze______ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H9u-AS-iUK">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="【歴史】" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1W-Y0-0gb">
+                                <rect key="frame" x="169" y="26" width="65" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5o-pF-m4T">
+                                <rect key="frame" x="173" y="712" width="56" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="戻る"/>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OSe-1a-mHU">
+                                <rect key="frame" x="20" y="62" width="370" height="642"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvE-Nn-67c">
+                                <rect key="frame" x="58" y="728" width="88" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="北条政子"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bbK-T0-BOZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="UVt-2g-mcM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Isb-6z-jQq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9188" y="-2116"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="49H-DO-BkZ">
             <objects>
@@ -1217,7 +1262,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hXA-Gl-dHd">
                                 <rect key="frame" x="43" y="202" width="316" height="549"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1229,6 +1273,7 @@
                     <navigationItem key="navigationItem" id="eR3-6d-Jel"/>
                     <connections>
                         <outlet property="RichText" destination="hXA-Gl-dHd" id="r2j-f0-afh"/>
+                        <outlet property="Richtext" destination="hXA-Gl-dHd" id="jcb-tS-FCg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eh8-wJ-mAb" sceneMemberID="firstResponder"/>
@@ -1740,9 +1785,9 @@ https://multiecube.com/station/86
         <segue reference="YKa-cU-3do"/>
         <segue reference="dNq-bL-mJC"/>
         <segue reference="ocx-5a-5s9"/>
-        <segue reference="yKS-IZ-Zl4"/>
+        <segue reference="Qxd-Os-BLH"/>
         <segue reference="QX8-Og-p0T"/>
-        <segue reference="cQa-Yr-cTh"/>
+        <segue reference="dIP-aZ-PVC"/>
         <segue reference="2Fx-3j-mgG"/>
         <segue reference="tTw-Ne-8aE"/>
     </inferredMetricsTieBreakers>

@@ -21,10 +21,9 @@ class TenthViewController: UIViewController {
         let attributedString = NSMutableAttributedString()
         
         // フォント設定
-        let titleFont = UIFont.boldSystemFont(ofSize: 24)
-        let bodyFont = UIFont.systemFont(ofSize: 16)
-        let maxWidth = view.bounds.width - 40
-        
+       let titleFont: UIFont = UIFont(name: "HiraginoSans-W6", size: 24) ?? .boldSystemFont(ofSize: 24)
+       let bodyFont: UIFont = UIFont(name: "HiraginoSans-W3", size: 16) ?? .systemFont(ofSize: 17)
+       let maxWidth = view.bounds.width - 40
         // === タイトル ===
         let title = """
         """
