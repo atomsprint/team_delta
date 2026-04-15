@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_3" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -192,7 +192,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yse-5z-tuh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CJb-y1-Dor">
-                        <rect key="frame" x="0.0" y="124" width="402" height="54"/>
+                        <rect key="frame" x="0.0" y="124" width="402" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -351,7 +351,7 @@
             <objects>
                 <viewController id="XkY-w0-gdd" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fGg-Wf-hdv">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGw-dm-NPy">
@@ -885,7 +885,7 @@
             <objects>
                 <viewController id="BPW-9J-SO3" customClass="ViewController" customModule="IzaKamakuraApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nm6-Ea-hSB">
-                        <rect key="frame" x="0.0" y="0.0" width="402" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JgR-dp-wZ0">
@@ -1785,11 +1785,11 @@ https://multiecube.com/station/86
         <segue reference="YKa-cU-3do"/>
         <segue reference="dNq-bL-mJC"/>
         <segue reference="ocx-5a-5s9"/>
-        <segue reference="Qxd-Os-BLH"/>
-        <segue reference="QX8-Og-p0T"/>
-        <segue reference="dIP-aZ-PVC"/>
+        <segue reference="s5a-VR-Cvb"/>
+        <segue reference="YZx-pB-2sP"/>
+        <segue reference="iQS-5I-jZh"/>
         <segue reference="2Fx-3j-mgG"/>
-        <segue reference="tTw-Ne-8aE"/>
+        <segue reference="9kM-Tv-muf"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="HEIWA" width="1509" height="1080"/>
