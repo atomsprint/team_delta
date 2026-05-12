@@ -78,6 +78,7 @@ final class RichArticleViewController: UIViewController {
     }
 
     private func applyRichContent() {
+
         guard let resolvedKey = articleContentKey ?? restorationIdentifier, !resolvedKey.isEmpty else {
             assertionFailure("記事キーが未設定です（articleContentKey または restorationIdentifier）。")
             return
