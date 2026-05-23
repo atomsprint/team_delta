@@ -4037,7 +4037,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5j-Kk-dBZ">
-                                <rect key="frame" x="168" y="87" width="68" height="29"/>
+                                <rect key="frame" x="167" y="54" width="68" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">鎌倉彫
 </string>
@@ -4046,7 +4046,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="使い込むほど美しい、鎌倉時代から受継がれる技" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM1-9s-F1y">
-                                <rect key="frame" x="27" y="62" width="351" height="21"/>
+                                <rect key="frame" x="26" y="94" width="351" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -6665,7 +6665,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SVD-55-QQY">
-                                <rect key="frame" x="16" y="85" width="370" height="596"/>
+                                <rect key="frame" x="16" y="145" width="370" height="536"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -6778,6 +6778,20 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="体験"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="おやつ騒動" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ze4-gP-enQ">
+                                <rect key="frame" x="144" y="55" width="113" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="市民が守った鎌倉の自然" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p1t-ZQ-Pf0">
+                                <rect key="frame" x="113" y="92" width="175" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="di0-gz-g5c"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -6789,7 +6803,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cLW-k5-Gqb" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4260" y="86"/>
+            <point key="canvasLocation" x="4259.7014925373132" y="85.812356979405024"/>
         </scene>
         <!--otyaViewController-->
         <scene sceneID="tJM-YR-bZe">
@@ -8805,18 +8819,18 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="pbD-IR-NyS"/>
-        <segue reference="dxC-OA-uFd"/>
-        <segue reference="17t-HE-Unu"/>
-        <segue reference="nCO-bf-DWM"/>
+        <segue reference="xY1-IA-ejE"/>
+        <segue reference="iQ4-MH-W8w"/>
+        <segue reference="OiL-MS-OsU"/>
+        <segue reference="PsN-Io-vDF"/>
         <segue reference="LgT-xB-qbv"/>
         <segue reference="o1M-cv-pHS"/>
         <segue reference="7ei-Bu-KVh"/>
         <segue reference="yjW-6f-cXH"/>
-        <segue reference="LV4-5s-ehE"/>
-        <segue reference="B00-Sh-DIl"/>
-        <segue reference="r4d-7z-WIm"/>
-        <segue reference="KXu-0g-4CS"/>
+        <segue reference="HTM-Zb-uVe"/>
+        <segue reference="R8g-3G-8qZ"/>
+        <segue reference="Rh7-AA-btu"/>
+        <segue reference="Okq-BP-PzU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="azisai" width="1181" height="1181"/>
